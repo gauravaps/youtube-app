@@ -27,6 +27,9 @@ const generateAccessAndRefreshToken=async(userid)=>{
    }
 }
 
+// user registraton here++++++
+
+
 const registerUser=asynchandler(async(req,res)=>{
 
    const{username,email,fullName,password}=req.body
@@ -190,6 +193,10 @@ const refreshAccessToken=asynchandler(async(req,res)=>{
  }
 
 })
+
+//password update....
+
+
 
 
 
